@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from './Header';
-import TicketList from './TicketList';
+import Home from './Home';
 import { Switch, Route } from 'react-router-dom';
-import NewTicketForm from './NewTicketForm';
+import AboutUs from './AboutUs';
 
 function App(){
   return (
     <div>
       <Header/>
       <Switch>
-        <Route exact path='/' component={TicketList} />
-        <Route path='/newticket' component={NewTicketForm} />
+        <Route exact path='/' component={Home} />
+        <Route path='/aboutus' component={AboutUs} />
       </Switch>
     </div>
   );
