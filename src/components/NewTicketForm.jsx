@@ -1,4 +1,5 @@
 import React from 'react';
+import reallyAdorablePuppy from '../assets/images/cutestpuppy.jpg';
 
 function NewTicketForm(){
   return (
@@ -17,6 +18,7 @@ function NewTicketForm(){
           placeholder='Describe your issue.'/>
         <button type='submit'>Help!</button>
       </form>
+      <img src={reallyAdorablePuppy}/>
     </div>
   );
 }
