@@ -2,6 +2,7 @@ import React from 'react';
 
 
 function Home(){
+
   let myStyledComponentStyles = {
     backgroundColor: '#ecf0f1',
     fontFamily: 'sans-serif',
